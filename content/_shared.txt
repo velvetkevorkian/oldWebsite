@@ -1,4 +1,6 @@
-name: K&yuml;le Macquarrie
+name: Kyle Macquarrie
 -
 tagline: Finely Crafted Electrons
+-
+site_version: 0.2
 -
