@@ -1,0 +1,15 @@
+title: ElenaPiras.com
+-
+tag: web design, web development, wordpress
+-
+date: 2012
+-
+content: 
+This is actually the second site I've designed for [Elena Piras](http://elenapiras.com/), a singer/songwiter originally from Sardinia but now based in Scotland.
+The first and second versions of were static HTML, which meant updating news and upcoming shows was difficult and time consuming. Instead,
+I built a custom Wordpress theme which kept the look and feel of the previous sites but made better use of space and new technologies 
+to make it easy to maintain without having to code it. 
+
+<img src="http://farm9.staticflickr.com/8205/8179349266_00076c2c25_b.jpg">
+
+The website is live now at [elenapiras.com](http://elenapiras.com/).

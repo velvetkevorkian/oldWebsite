@@ -1,0 +1,29 @@
+title: About
+-
+content: 
+
+![presenting at Culture Hack Scotland 2012](http://farm9.staticflickr.com/8064/8180183946_9f5d162059_z.jpg)
+
+- ###Education
+	Currently:  3rd year BSc Digital Interaction Design at DJCAD in Dundee.
+	
+	Previously: HND Computer Art &amp; Design at City Of Glasgow College
+	
+	Need more info? Want to know the gritty details of my school exams? [Get in touch](../contact/).
+	
+- ###Experience
+	See my [portfolio](../portfolio/) for the interesting stuff. If you're reading this you're probably not that interested in the 
+	selection of menial jobs I've had over the years. If you are, [ask me](../contact/) and I'll tell you. 
+	
+- ###Tools
+	I love Processing. 
+	
+	I've played with OpenFrameworks on the desktop and iOS, and dabbled in Arduino.
+	
+	I'm experienced with most of the Adobe CS software. For audio, I like Reaper.
+	
+	I'm comfortable on Windows and OSX. By comfortable, I mean I hate them both equally.
+	
+- ### This site 
+	is running on Stacey, and was built with the help of SASS and Processing.js. I hand-coded it in TextWrangler.  
+	The blog uses Wordpress, and at the time of writing is pretty ugly. Sorry.  

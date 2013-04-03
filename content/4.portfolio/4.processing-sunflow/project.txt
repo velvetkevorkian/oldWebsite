@@ -1,0 +1,16 @@
+title: Processing and Sunflow
+-
+date: 2011
+-
+tag: Processing, Sunflow, raytracing
+-
+content: 
+
+Combining the generative power of [Processing](http://processing.org/) with the photorealistic rendering capabilities of [Sunflow](http://sunflow.sourceforge.net/). 
+ 
+<img src="http://farm6.staticflickr.com/5133/5482121704_cf39ca54af_b.jpg"> <!--red ball-->
+<img src="http://farm6.staticflickr.com/5134/5481521239_69af30cf37_b.jpg"> <!--grey ball-->
+<img src="http://farm6.staticflickr.com/5305/5837603852_5697d4c65c_b.jpg"> <!--grey subdiv ball-->
+
+Some technical discussion and code on [this blog post](http://velvetkevorkian.co.uk/blog/sunflow-and-processing-the-basics/)
+and more pictures [on Flickr](http://www.flickr.com/photos/53111802@N05/sets/72157626846474925/).

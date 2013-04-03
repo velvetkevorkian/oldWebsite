@@ -1,0 +1,14 @@
+title: cad2011.co.uk
+-
+date: 2011
+-
+tag: web design, web development
+-
+content: 
+A simple, elegant site I put together as part of the preparation for the Computer Art and Design HND end of year show. 
+I wanted something to show off the diverse work produced by my fellow students. As well as an online information source we used
+it as a welcome screen in the exhibition venue. 
+
+<img src="http://farm9.staticflickr.com/8179/8039896013_c80756aa4d_b.jpg">
+
+[Check it out here](http://cad2011.co.uk/).

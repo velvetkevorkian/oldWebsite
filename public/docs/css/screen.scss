@@ -1,0 +1,328 @@
+//colour
+$main-bg-color: rgb(234, 234, 234);
+$main-color: rgb(79, 79, 79);
+$link-color: lighten($main-color, 20%);
+$border-col: lighten($link-color, 20%);
+$hover-link-color: rgb(229, 229, 229);
+$hover-background-color: rgb(99, 99, 99);
+
+//layout
+$left-col-width: 12%;
+$min-nav-width: 135px;
+$mobile-layout-width: 800px; //anything smaller than this will trigger the 1-col layout.
+
+//borders
+$border1: 1px solid;
+$corner-radius: 4px;
+
+//drop shadow
+$shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
+//typography
+$header-font: "Jura", sans-serif;
+$body-font: "Jura", sans-serif;
+
+//transitions
+$menu-trans: all 0.2s ease-in;
+
+@mixin drop-shadow{
+	-moz-box-shadow: $shadow;
+	-webkit-box-shadow: $shadow;
+	box-shadow: $shadow;
+	}
+
+@mixin transitions{
+	-webkit-transition: $menu-trans;
+	-moz-transition: $menu-trans;
+	-o-transition: $menu-trans;
+	-ms-transition: $menu-trans;
+	transition: $menu-trans;
+	}
+//default link styling
+@mixin link-rollover{
+	a{
+		text-decoration: none;
+		color: $link-color;
+		@include transitions;
+		&:visited{ 
+			color: $link-color;
+		}
+		&:hover{
+			color: $hover-link-color;
+			background-color: $hover-background-color;
+		}
+	}
+}
+
+//rounded corners for images
+@mixin rounded-corners{
+	border-radius: $corner-radius;
+  	-webkit-border-radius: $corner-radius;
+  	-moz-border-radius: $corner-radius;
+  	-o-border-radius: $corner-radius;
+  	-ms-border-radius: $corner-radius;
+	}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  //max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  //min-width: 320px;
+  background-color: $main-bg-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  font-weight: 500;
+}
+
+p {
+  font-family: $body-font;
+  font-weight: 300;
+}
+
+header {
+	white-space: nowrap;
+	padding-left: $left-col-width;
+	margin-left: -12px;
+  a {
+    text-decoration: none;
+    color: $main-color;
+    &:visited{
+    	color: $main-color;
+    }
+  }
+  
+  h1{
+  	padding: 0;
+  	margin: 12px 0;
+  	font-size: 2em;
+  }
+  h2{
+  	padding: 0;
+  	margin: 12px 0;
+  	font-size: 1.5em;
+  }
+  
+  	@media screen and (max-width: $mobile-layout-width) {
+		padding-left: 8px;
+		margin-left: 0;
+		}
+  
+}
+
+.content {
+  line-height: 1.2em;
+  width: 85%;
+  float: left;
+  margin: 0 auto;
+  
+  p {
+	width: 100%;  
+    padding-left: 8px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    @include link-rollover;
+		a{
+			text-decoration: underline;
+		}
+
+  }
+  p.project-details{
+	padding: 0;
+	width: 100%;
+	}
+  ul{
+  	width: 100%;
+  	font-family: $body-font;
+  	color: $main-color;
+  	margin-left: -16px;
+  	li{
+  		@include link-rollover;
+  		a{
+			text-decoration: underline;
+  		}
+  	}
+  }
+  canvas{
+	width: 500px;
+	height: 500px;
+  	}
+	
+	img{
+			width: 100%;
+			margin: 0 8px 8px 0;
+			float: left;
+		}
+	.vimeo-container{
+		width: 75%;
+		padding: 0 0 8px 0;
+		margin-top: -4px;
+		float: left;
+		position: relative;
+    	padding-bottom: 56.25%; /* 16/9 ratio */
+    	height: 0;
+    	overflow: hidden;
+		}
+		 
+	iframe{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 8px 0;
+
+	}
+ 
+	.sibling-nav{
+		clear: both;
+		@include link-rollover;
+	}
+	
+	  @media screen and (max-width: $mobile-layout-width) {
+	  	width: 100%;
+	  	margin-left: 0;
+	  	margin-top: 8px;
+	  	padding-left: 0;
+		p{
+			width: 95%;
+			//margin-left: 8px;
+			img{
+				width: 100%;
+				}
+			}
+			
+		}			
+}
+
+.container {
+  color: $main-color;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header, footer {
+  clear: both;
+}
+
+footer{
+	p{
+	padding-left: $left-col-width;
+	margin-left: -20px;
+	@include link-rollover;
+		a{
+			border-top: $border1 $border-col;
+			padding: 4px 4px 4px 8px;
+		}
+	}
+	@media screen and (max-width: $mobile-layout-width) {
+	p{
+		padding-left: 0;
+		margin-left: 0;
+		}
+	}
+	
+}
+
+nav {
+  width: $left-col-width;
+  min-width: $min-nav-width;
+  float: left;
+  border-right: $border1 $border-col;
+  margin-left: -20px;
+  ul {
+  	margin-top: 0;
+    list-style: none;
+    text-align: right;
+    font-family: $header-font;
+    @include link-rollover;
+    li{
+        margin: 4px 0;    	
+    	a{
+    		padding: 2px 8px;
+    	}
+    	
+    }
+  }
+  
+	@media screen and (max-width: $mobile-layout-width) {
+		position: static;
+		width: 100%;
+		border: none;
+		border-top: $border1 $border-col;
+		border-bottom: $border1 $border-col;
+		clear: both;
+		min-width: 0;
+		margin-left: 0;
+		margin-bottom: 8px;
+		ul{
+		margin-left: 0;
+		padding-left: 0;
+			li{
+				display: inline;
+				float: left;
+				a{
+					font-size: 1.5em;
+				}
+			}
+		}
+	}				
+}
+
+.project-summary {
+  width: 30%;
+  min-height: 185px;
+  float: left;
+  padding: 0 0 0 8px;
+  margin-bottom: 1%; 
+  img {
+  	width: 100%;
+  	}
+
+  p{
+  padding: 0;
+  margin: 0;
+  @include link-rollover;
+  }
+  @media screen and (max-width: $mobile-layout-width) {
+  	min-height: 0;
+  	clear: both;
+  	width: 100%;
+  	padding: 0 8px;
+  	img{
+  		width: 100%;
+  		min-height: 0;
+  		}
+  	}
+  	
+  	@media screen and (min-width: $mobile-layout-width +1){
+  		//width: 30%;
+  		}
+}
+
+
+//for sticky footer
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.frame {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+  height: 1px;
+}
+
+.row.expand {
+  height: auto;
+}
+
+//end sticky footer

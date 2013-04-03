@@ -1,0 +1,13 @@
+title: Processing Showreel
+-
+date: 2011
+-
+tag: Processing
+-
+content: 
+I put together this video compilation of Processing work when I was applying for university in early 2011: it formed the backbone of the effort which got 
+me in to study at [DJCAD in Dundee](http://www.dundee.ac.uk/djcad/). It shows a lot of the ideas that continue to interest me.
+
+<div class= "vimeo-container">
+<iframe src="http://player.vimeo.com/video/19745219" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/19745219">Processing Sketches: Feb 2011</a> from <a href="http://vimeo.com/velvetkevorkian">Kyle Macquarrie</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+</div>

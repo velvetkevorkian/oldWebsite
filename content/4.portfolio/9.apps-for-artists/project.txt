@@ -1,0 +1,34 @@
+title: Apps for Artists
+-
+date: 2012
+-
+tag: openFrameworks, augmented reality, iOS
+-
+content:
+An app designed to showcase the work of DJCAD fine art student [Mariella Verkerk](http://mariellaverkerk.tumblr.com/). Using her work to brand the app, a team of interaction design students designed, tested and prototyped the app for iPhone. As well as a conventional gallery and biography structure, we used openFrameworks to create an augmented reality section where work Mariella had conceived as street art could be projected onto commonplace features. This was based on the idea of work being "hidden" in plain sight and the app notifying you when you were close to it. 
+
+One of my colleagues built a storyboard-based version which we used for initial testing, then I rebuilt it using [openFrameworks](http://www.openframeworks.cc/) and [ofxQCAR](https://github.com/julapy/ofxQCAR) and integrated the augmented reality section. 
+
+
+The splash page, home screen and biography:
+
+![The splash page, home screen and biography](http://farm9.staticflickr.com/8382/8601619494_ac14cf6be0_b.jpg)
+
+The gallery, and items from it:
+
+![The gallery](http://farm9.staticflickr.com/8091/8600520115_99e139ef03_b.jpg)
+
+The augmented reality section being demoed: 
+
+![The augmented reality section being demoed](http://farm9.staticflickr.com/8111/8601619446_d291e58b87_b.jpg)
+![The augmented reality section being demoed](http://farm9.staticflickr.com/8252/8601619714_b9bd4f9953_b.jpg)
+
+Unfortunately we didn't document this very well at the time, and I don't have access to any iOS hardware at the moment, so these are the only images of the AR in action I have. 
+
+User testing with the  Applied Computing guinea pigs: 
+
+![User testing](http://farm9.staticflickr.com/8378/8600519861_08f846c05c_b.jpg)
+
+This testing had quite an impact on our final design- people had trouble recognising the stylised buttons we had used, so we went through a number of iterations of the home screen design in particular to make it more intuitive. 
+
+![Early home screen designs](http://farm9.staticflickr.com/8380/8600520047_4641af3acf_b.jpg)

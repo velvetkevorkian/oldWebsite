@@ -1,0 +1,31 @@
+title: Traffic State
+-
+date: 2012
+- 
+tag: Processing, Arduino
+-
+content: 
+![Traffic State](http://farm9.staticflickr.com/8376/8597130439_938c282dc2_b.jpg)
+Traffic State is a physical visualisation of traffic in New York City, based on live data provided by the city's transport authority. It is a response to a brief called *21st Century Barometers*- physical devices which live in a domestic environment and provide useful daily data through the internet. The metal links hung below provide a mechanical graph of the average traffic speed for the past few hours.
+
+![Traffic State in context](http://farm9.staticflickr.com/8085/8598234040_dec1720907_b.jpg)
+![Traffic State in context](http://farm9.staticflickr.com/8391/8598234108_5e40ff211a_b.jpg)
+
+Working with a team of one other interaction designer and a product designer, we prototyped a number of different versions of this, from cardboard and string to the final version with laser-cut plywood. 
+
+![Cardboard prototyping](http://farm9.staticflickr.com/8527/8597130509_ff16271975_b.jpg)
+![Testing servos](http://farm9.staticflickr.com/8229/8598234062_9e3fc999be_b.jpg)
+![Putting it together](http://farm9.staticflickr.com/8249/8597130485_5cf5be7889_b.jpg)
+![Final testing before gluing the front on](http://farm9.staticflickr.com/8093/8598234052_a8bb54dfbd_b.jpg)
+ 
+I developed a simple Processing program to parse the data and send the average speed to an Arduino inside the device, which updates regularly and powers the servos. 
+
+![Simple visualisation using Processing](https://farm9.staticflickr.com/8044/8145875639_4f28caa30e_b.jpg)
+
+This was shown as [part of](http://socialdigital.dundee.ac.uk/digitalhallway/project/traffic-state/) the [Digital Hallway](http://socialdigital.dundee.ac.uk/digitalhallway/) exhibition in January 2013. I also co-designed/developed the [exhibition website](@root_path/portfolio/digital-hallway/).
+
+<div class= "vimeo-container">
+<iframe src="http://player.vimeo.com/video/54302778" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+</div>
+
+Thanks to [David Raymond](http://davidraymonddesign.com/) for the photos.

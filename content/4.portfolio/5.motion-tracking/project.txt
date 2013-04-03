@@ -1,0 +1,42 @@
+title: Motion Tracking
+-
+date: 2011/2013
+-
+tag: Processing, computer vision 
+-
+content: 
+
+This was the final project for my HND Computer Art and Design course, and was part of the [end of year show](http://cad2011.co.uk/). The
+brief was to create a "digital artefact" which was in some way related to [St. Enoch Square](http://en.wikipedia.org/wiki/St._Enoch_Square).
+I chose to look at the way people move through the area and different ways of interpreting that. You can follow how this project developed, and check out the code used, on my blog:
+[1](http://velvetkevorkian.co.uk/blog/work-in-progress-tracking-movement-in-st-enoch-square/), [2](http://velvetkevorkian.co.uk/blog/st-enoch-square-slit-scan-video-experiment/), 
+[3](http://velvetkevorkian.co.uk/blog/another-slit-scan-image/), [4](http://velvetkevorkian.co.uk/blog/hd-movement-tracking-first-iteration/), [5](http://velvetkevorkian.co.uk/blog/hd-movement-tracking-further-and-final-iteration/).
+
+Stills from the final video piece:
+![Still from final piece 1](http://farm3.staticflickr.com/2103/5822430642_19aee56c4c_b.jpg)
+<img src="http://farm3.staticflickr.com/2257/5822428816_c7f3972bec_b.jpg">
+
+Rendered for printing:
+<img src="http://farm6.staticflickr.com/5187/5837720536_8e11d97924_b.jpg">
+
+The final video:
+<div class= "vimeo-container">
+<iframe src="http://player.vimeo.com/video/25155382?badge=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+(view in better quality [on Vimeo](https://vimeo.com/25155382)).
+
+The significantly rewritten 2013 version of this software was used in Royal Wood's video for *The Glory*. You can see it around the 2:35 mark in the video: 
+<div class= "vimeo-container">
+<iframe src="http://player.vimeo.com/video/60338437" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+</div>
+![Screenshot from Royal Wood's THe GLory](http://farm9.staticflickr.com/8091/8594413943_1edcb4824e_b.jpg)
+![Screenshot from Royal Wood's THe GLory](http://farm9.staticflickr.com/8237/8594413911_c5f3404782_b.jpg)
+
+Check out [this blog post](http://velvetkevorkian.co.uk/blog/the-glory/) for more information and links. 
+
+
+Process shots including the original footage used: 
+<img src="http://farm6.staticflickr.com/5026/5822427614_02bca9e75e_b.jpg">
+<img src="http://farm6.staticflickr.com/5039/5821859773_a911dc8809_b.jpg">
+
+You can see more [on Flickr](http://www.flickr.com/photos/53111802@N05/sets/72157626843152909/).

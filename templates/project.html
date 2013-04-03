@@ -1,0 +1,18 @@
+:head
+:header
+:navigation
+      <div class="content" class="row expand"><!--begin content-->
+        @content
+        <p class="date">@date</p>
+        if @tag do
+          <!--<p><em>@tag</em></p>-->
+        endif
+        <div class="sibling-nav"><!--begin sibling nav-->
+          if $siblings do
+        :previous-page :next-page
+          endif
+        </div><!--end sibling nav-->
+        
+          </div><!--end content-->
+      </div><!--end page container-->
+:footer

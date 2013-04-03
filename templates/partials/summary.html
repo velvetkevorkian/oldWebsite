@@ -1,0 +1,15 @@
+	if @tag do
+			<div class="project-summary @tag"> <!--begin project summary if it has tags (add @tag back in?)-->
+				endif
+				if !@tag do
+			<div class="project-summary"> <!-- or here if not-->
+				endif
+				if @thumb do
+					<a href= "@url"><img src="@thumb" alt="@title"></a>
+				endif
+				<p class= "project-details">@date: <a href="@url">@title</a></p>
+				if @tag do
+					<!--<p><em>@tag</em></p>--> 
+				endif
+			</div><!--end project summary-->
+			

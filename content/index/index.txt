@@ -1,0 +1,5 @@
+page-title: Home
+-
+content: Digital Interaction Design student.
+web/code/art/sound
+-

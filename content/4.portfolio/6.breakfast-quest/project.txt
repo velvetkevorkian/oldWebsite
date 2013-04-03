@@ -1,0 +1,20 @@
+title: Breakfast Quest
+-
+date: 2011
+- 
+tag: co-design, board games
+- 
+content: 
+![Early Breakfast Quest sketch](http://farm9.staticflickr.com/8527/8597006129_322c6c1506_b.jpg)
+*Breakfast Quest* is a game I helped design in collaboration with a group of other Interaction Design and Product Design students from DJCAD. We used co-design techniques to work with pupils from Dundee primary schools' breakfast clubs to design active games to encourage healthier eating and lisfestyle choices. We also worked with representatives from Tayside NHS, Dundee City Council, the Home Grown Cereals Association, and the Royal Highland Educational Trust Angus Countryside Initiative, all of whom were stakeholders in the co-design process. 
+
+![Final colour board](http://farm9.staticflickr.com/8521/8598108422_ef9ac5eb50_b.jpg)
+
+Breakfast Quest was designed to be [easily distributed online](http://gooddirtgames.wordpress.com/2012/05/05/breakfast-quest/), requiring only a printed copy of the board, a die and counters- materials which most breakfast clubs have already. The rules are simple and printed on the board, and the physical activities can be adjusted depending on how much space the school has available. We tested the game with pupils from Our Lady's primary school and got some great feedback from them, and the game was selected by the stakeholders as the best response to the brief we were set. 
+
+![Final b&w board](http://farm9.staticflickr.com/8235/8598109866_23f954e4ff_b.jpg)
+
+We also designed a black and white version of the board so players can customise their board. 
+
+
+
