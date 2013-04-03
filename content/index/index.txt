@@ -1,5 +1,7 @@
 page-title: Home
 -
-content: Digital Interaction Design student.
-web/code/art/sound
+needspjs: yes
 -
+content: 
+
+Digital Interaction Design student, somewhere in Scotland. Making design/web/code/art/sound things. 

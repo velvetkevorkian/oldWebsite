@@ -84,6 +84,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+h1{
+  	padding: 0;
+  	margin: 12px 0;
+  	font-size: 2em;
+  }
+  h2{
+  	padding: 0;
+  	margin: 12px 0;
+  	font-size: 1.5em;
+  }
+  
+  h3{
+  	padding-left: 8px;
+  	}
+
 p {
   font-family: $body-font;
   font-weight: 300;
@@ -101,16 +116,7 @@ header {
     }
   }
   
-  h1{
-  	padding: 0;
-  	margin: 12px 0;
-  	font-size: 2em;
-  }
-  h2{
-  	padding: 0;
-  	margin: 12px 0;
-  	font-size: 1.5em;
-  }
+  
   
   	@media screen and (max-width: $mobile-layout-width) {
 		padding-left: 8px;
@@ -127,7 +133,7 @@ nav {
   border-right: $border1 $border-col;
   margin-left: -20px;
   ul {
-  	margin-top: 0;
+  	margin-top: -3px;
     list-style: none;
     text-align: right;
     font-family: $header-font;

@@ -2,16 +2,18 @@ title: About
 -
 content: 
 
-![presenting at Culture Hack Scotland 2012](http://farm9.staticflickr.com/8064/8180183946_9f5d162059_z.jpg)
+Hello! I'm Kyle, and I make things things like websites, apps and physical devices. 
 
-- ###Education
-	Currently:  3rd year BSc [Digital Interaction Design](http://interaction.dundee.ac.uk/) at DJCAD in Dundee.
+###Education
+
+Currently:  3rd year BSc [Digital Interaction Design](http://interaction.dundee.ac.uk/) at DJCAD in Dundee.
 	
-	Previously: [HND Computer Art &amp; Design](http://www.cityofglasgowcollege.ac.uk/computer-arts-city-glasgow-college) at City Of Glasgow College
+ Previously: [HND Computer Art &amp; Design](http://www.cityofglasgowcollege.ac.uk/computer-arts-city-glasgow-college) at City Of Glasgow College
 	
-	Need more info? Want to know the gritty details of my school exams? [Get in touch](../contact/).
+ Need more info? [Get in touch](../contact/).
 	
-- ###Experience
-	See my [portfolio](../portfolio/) for the interesting stuff. I've also been, at various times, a waiter, a barman, a call centre operator, a call centre trainer, a call centre manager, a voluntary gallery assistant, a voluntary musical tutor, and probably some others I've forgotten. 
+###Experience
+
+ See my [portfolio](../portfolio/) for the interesting stuff. I've also been, at various times, a waiter, a barman, a call centre operator, a call centre trainer, a call centre manager, a voluntary gallery assistant, a voluntary musical tutor, and probably some others I've forgotten. 
 	
 	

@@ -16,6 +16,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Jura", sans-serif;
   font-weight: 500; }
 
+h1 {
+  padding: 0;
+  margin: 12px 0;
+  font-size: 2em; }
+
+h2 {
+  padding: 0;
+  margin: 12px 0;
+  font-size: 1.5em; }
+
+h3 {
+  padding-left: 8px; }
+
 p {
   font-family: "Jura", sans-serif;
   font-weight: 300; }
@@ -29,14 +42,6 @@ header {
     color: #4f4f4f; }
     header a:visited {
       color: #4f4f4f; }
-  header h1 {
-    padding: 0;
-    margin: 12px 0;
-    font-size: 2em; }
-  header h2 {
-    padding: 0;
-    margin: 12px 0;
-    font-size: 1.5em; }
   @media screen and (max-width: 800px) {
     header {
       padding-left: 8px;
@@ -50,7 +55,7 @@ nav {
   border-right: 1px solid #b5b5b5;
   margin-left: -20px; }
   nav ul {
-    margin-top: 0;
+    margin-top: -3px;
     list-style: none;
     text-align: right;
     font-family: "Jura", sans-serif; }
