@@ -2,7 +2,6 @@ title: Contact
 -
 content:
 
-- Questions or comments? Want to hire me to make you something? Email me: <kyle@velvetkevorkian.co.uk>. Happy to chat/give quotes/whatever.
+- Questions or comments? Want to hire me to make you something? Email me: <kyle@kylemacquarrie.co.uk>. 
 - Or: chat in chunks of &lt;140 characters [on Twitter](@twitter "@k_macquarrie on Twitter").
-- Elsewhere: [Flickr](http://www.flickr.com/photos/53111802@N05/ "velvetkevorkian's photostream"), [Vimeo](https://vimeo.com/velvetkevorkian "Kyle Macquarrie on Vimeo"),
-[OpenProcessing](http://www.openprocessing.org/user/5476 "My OpenProcessing portfolio"), [Soundcloud](http://soundcloud.com/velvetkevorkian "velvetkevorkian on Soundcloud").
+- Elsewhere: [Flickr](http://www.flickr.com/photos/53111802@N05/ "velvetkevorkian's photostream"), [Vimeo](https://vimeo.com/velvetkevorkian "Kyle Macquarrie on Vimeo"), [GitHub](https://github.com/velvetkevorkian "velvetkevorkian on GitHub), [OpenProcessing](http://www.openprocessing.org/user/5476 "My OpenProcessing portfolio"), [Soundcloud](http://soundcloud.com/velvetkevorkian "velvetkevorkian on Soundcloud").
