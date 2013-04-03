@@ -72,6 +72,13 @@ body {
   background-color: $main-bg-color;
 }
 
+.container {
+  //color: $main-color;
+  width: 100%;
+  margin: 0 auto;
+  //padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font;
   font-weight: 500;
@@ -108,8 +115,54 @@ header {
   	@media screen and (max-width: $mobile-layout-width) {
 		padding-left: 8px;
 		margin-left: 0;
+		white-space: normal;
 		}
   
+}
+
+nav {
+  width: $left-col-width;
+  min-width: $min-nav-width;
+  float: left;
+  border-right: $border1 $border-col;
+  margin-left: -20px;
+  ul {
+  	margin-top: 0;
+    list-style: none;
+    text-align: right;
+    font-family: $header-font;
+    @include link-rollover;
+    li{
+        margin: 4px 0;    	
+    	a{
+    		padding: 2px 8px;
+    	}
+    	
+    }
+  }
+  
+	@media screen and (max-width: $mobile-layout-width) {
+		position: static;
+		width: 100%;
+		border: none;
+		border-top: $border1 $border-col;
+		border-bottom: $border1 $border-col;
+		clear: both;
+		min-width: 0;
+		margin-left: 0;
+		margin-bottom: 8px;
+		ul{
+		margin-left: 0;
+		padding-left: 0;
+			li{
+				display: inline;
+				float: left;
+				a{
+					font-size: 1.5em;
+				}
+			}
+		}
+	}				
 }
 
 .content {
@@ -197,12 +250,7 @@ header {
 		}			
 }
 
-.container {
-  color: $main-color;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
+
 
 header, footer {
   clear: both;
@@ -227,50 +275,7 @@ footer{
 	
 }
 
-nav {
-  width: $left-col-width;
-  min-width: $min-nav-width;
-  float: left;
-  border-right: $border1 $border-col;
-  margin-left: -20px;
-  ul {
-  	margin-top: 0;
-    list-style: none;
-    text-align: right;
-    font-family: $header-font;
-    @include link-rollover;
-    li{
-        margin: 4px 0;    	
-    	a{
-    		padding: 2px 8px;
-    	}
-    	
-    }
-  }
-  
-	@media screen and (max-width: $mobile-layout-width) {
-		position: static;
-		width: 100%;
-		border: none;
-		border-top: $border1 $border-col;
-		border-bottom: $border1 $border-col;
-		clear: both;
-		min-width: 0;
-		margin-left: 0;
-		margin-bottom: 8px;
-		ul{
-		margin-left: 0;
-		padding-left: 0;
-			li{
-				display: inline;
-				float: left;
-				a{
-					font-size: 1.5em;
-				}
-			}
-		}
-	}				
-}
+
 
 .project-summary {
   width: 30%;

@@ -8,6 +8,10 @@ body {
   padding: 0;
   background-color: #eaeaea; }
 
+.container {
+  width: 100%;
+  margin: 0 auto; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Jura", sans-serif;
   font-weight: 500; }
@@ -36,7 +40,56 @@ header {
   @media screen and (max-width: 800px) {
     header {
       padding-left: 8px;
-      margin-left: 0; } }
+      margin-left: 0;
+      white-space: normal; } }
+
+nav {
+  width: 12%;
+  min-width: 135px;
+  float: left;
+  border-right: 1px solid #b5b5b5;
+  margin-left: -20px; }
+  nav ul {
+    margin-top: 0;
+    list-style: none;
+    text-align: right;
+    font-family: "Jura", sans-serif; }
+    nav ul a {
+      text-decoration: none;
+      color: #828282;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in; }
+      nav ul a:visited {
+        color: #828282; }
+      nav ul a:hover {
+        color: #e5e5e5;
+        background-color: #636363; }
+    nav ul li {
+      margin: 4px 0; }
+      nav ul li a {
+        padding: 2px 8px; }
+  @media screen and (max-width: 800px) {
+    nav {
+      position: static;
+      width: 100%;
+      border: none;
+      border-top: 1px solid #b5b5b5;
+      border-bottom: 1px solid #b5b5b5;
+      clear: both;
+      min-width: 0;
+      margin-left: 0;
+      margin-bottom: 8px; }
+      nav ul {
+        margin-left: 0;
+        padding-left: 0; }
+        nav ul li {
+          display: inline;
+          float: left; }
+          nav ul li a {
+            font-size: 1.5em; } }
 
 .content {
   line-height: 1.2em;
@@ -136,12 +189,6 @@ header {
         .content p img {
           width: 100%; } }
 
-.container {
-  color: #4f4f4f;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0; }
-
 header, footer {
   clear: both; }
 
@@ -168,54 +215,6 @@ footer p {
   footer p {
     padding-left: 0;
     margin-left: 0; } }
-
-nav {
-  width: 12%;
-  min-width: 135px;
-  float: left;
-  border-right: 1px solid #b5b5b5;
-  margin-left: -20px; }
-  nav ul {
-    margin-top: 0;
-    list-style: none;
-    text-align: right;
-    font-family: "Jura", sans-serif; }
-    nav ul a {
-      text-decoration: none;
-      color: #828282;
-      -webkit-transition: all 0.2s ease-in;
-      -moz-transition: all 0.2s ease-in;
-      -o-transition: all 0.2s ease-in;
-      -ms-transition: all 0.2s ease-in;
-      transition: all 0.2s ease-in; }
-      nav ul a:visited {
-        color: #828282; }
-      nav ul a:hover {
-        color: #e5e5e5;
-        background-color: #636363; }
-    nav ul li {
-      margin: 4px 0; }
-      nav ul li a {
-        padding: 2px 8px; }
-  @media screen and (max-width: 800px) {
-    nav {
-      position: static;
-      width: 100%;
-      border: none;
-      border-top: 1px solid #b5b5b5;
-      border-bottom: 1px solid #b5b5b5;
-      clear: both;
-      min-width: 0;
-      margin-left: 0;
-      margin-bottom: 8px; }
-      nav ul {
-        margin-left: 0;
-        padding-left: 0; }
-        nav ul li {
-          display: inline;
-          float: left; }
-          nav ul li a {
-            font-size: 1.5em; } }
 
 .project-summary {
   width: 30%;
