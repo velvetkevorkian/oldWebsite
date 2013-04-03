@@ -106,7 +106,7 @@ p {
 
 header {
 	white-space: nowrap;
-	padding-left: $left-col-width;
+	padding-left: $min-nav-width;
 	margin-left: -12px;
   a {
     text-decoration: none;
@@ -127,7 +127,7 @@ header {
 }
 
 nav {
-  width: $left-col-width;
+  width: $min-nav-width;
   min-width: $min-nav-width;
   float: left;
   border-right: $border1 $border-col;
@@ -265,8 +265,8 @@ header, footer {
 
 footer{
 	p{
-	padding-left: $left-col-width;
-	margin-left: -20px;
+	padding-left: $min-nav-width;
+	margin-left: -21px;
 	@include link-rollover;
 		a{
 			border-top: $border1 $border-col;

@@ -35,7 +35,7 @@ p {
 
 header {
   white-space: nowrap;
-  padding-left: 12%;
+  padding-left: 135px;
   margin-left: -12px; }
   header a {
     text-decoration: none;
@@ -49,7 +49,7 @@ header {
       white-space: normal; } }
 
 nav {
-  width: 12%;
+  width: 135px;
   min-width: 135px;
   float: left;
   border-right: 1px solid #b5b5b5;
@@ -198,8 +198,8 @@ header, footer {
   clear: both; }
 
 footer p {
-  padding-left: 12%;
-  margin-left: -20px; }
+  padding-left: 135px;
+  margin-left: -21px; }
   footer p a {
     text-decoration: none;
     color: #828282;
