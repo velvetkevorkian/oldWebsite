@@ -145,8 +145,7 @@ nav {
     .content ul li a {
       text-decoration: underline; }
   .content canvas {
-    width: 500px;
-    height: 500px; }
+    margin-left: 8px; }
   .content img {
     width: 100%;
     margin: 0 8px 8px 0;
